@@ -1,0 +1,4 @@
+<view class="container">
+    <text class="f">水果</text>
+    <my-goods list="{{goods}}" bindmyevent="onMyEvent"></my-goods>
+</view>

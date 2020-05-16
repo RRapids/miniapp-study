@@ -1,0 +1,19 @@
+.study-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+}
+.col {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #8DA6D9;
+  margin: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

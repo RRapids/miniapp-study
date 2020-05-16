@@ -1,0 +1,5 @@
+/* pages/todoList/todoList.wxss */
+.no {
+  color: #8da6d9;
+  font-weight: bold;
+}

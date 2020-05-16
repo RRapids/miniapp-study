@@ -1,0 +1,19 @@
+<view class="container">
+    <view>
+        <input class="item-input" placeholder="请输入todo" value="{{addText}}" bindinput="setInput" focus="{{focus}}" />
+        <button type="warn" bindtap="addTodo" size="mini">添加</button>
+        <button type="default" bindtap="addTodoHide" size="mini">清空文本框</button>
+    </view>
+    <text class="no">未完成</text>
+    <block wx:for="{{list}}" wx:for-item="item" class="item-list">
+        <text class="item" wx:if="{{item.status===1}}" bindtap="changeStatus" data-item="{{item.id}}">
+            {{item.name}}
+        </text>
+    </block>
+    <text class="no">已完成</text>
+    <block wx:for="{{list}}" wx:for-item="item" class="item-list">
+        <text class="item" wx:if="{{item.status===0}}" bindtap="changeStatus" data-item="{{item.id}}">
+            {{item.name}}
+        </text>
+    </block>
+</view>

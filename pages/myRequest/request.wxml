@@ -1,0 +1,15 @@
+<!-- pages/myRequest/request.wxml -->
+<view class="container">
+    <view>
+        <button bindtap="enter">github</button>
+    </view>
+    <view>Name:{{userList.login}}</view>
+    <view>
+        <image src="{{userList.avatar_url}}"></image>
+    </view>
+    <view>
+        Followers:{{userList.followers}}
+        Following:{{userList.following}}
+        Reps:{{userList.public_repos}}
+    </view>
+</view>
