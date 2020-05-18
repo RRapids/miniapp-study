@@ -1,20 +1,15 @@
 .study-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows: auto auto auto;
+  grid-auto-flow: row;
   padding: 5px;
-  align-items: center;
-  justify-content: center;
-}
-.row {
-  display: flex;
-  flex-direction: column;
 }
 .col {
   width: 200rpx;
   height: 200rpx;
   background-color: #8da6d9;
   margin: 10rpx;
-  display: flex;
   align-items: center;
   justify-content: center;
 }

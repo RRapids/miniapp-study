@@ -9,7 +9,9 @@
     "pages/myRequest/request",
     "pages/welfare/welfare",
     "pages/books/books",
-    "pages/compareNumber/compareNumber"
+    "pages/compareNumber/compareNumber",
+    "pages/question/question",
+    "pages/calculator/calculator"
   ],
   "window": {
     "backgroundTextStyle": "light",
