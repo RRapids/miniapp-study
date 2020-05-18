@@ -1,0 +1,59 @@
+/* pages/welfare/welfare.wxss */
+.welfare-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20rpx 0; */
+  box-sizing: border-box;
+  
+  
+}
+.card {
+  /* display: flex; */
+  margin-top: 20rpx;
+  width: 90%;
+  height: 340rpx;
+  border-radius: 20rpx;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.card-img {
+  width: 100%;
+  height: 70%;
+}
+.card-content {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  flex: 1;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.sim {
+  font-size: 10px;
+  margin-left: 10rpx;
+  color: #aaa;
+  margin-top: 20rpx;
+}
+.btn {
+  position: relative;
+  background-color: rgb(232, 189, 144);
+  margin-top: -80rpx;
+  margin-right: 10rpx;
+  border-radius: 20rpx;
+  font-size: 12px;
+}

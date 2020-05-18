@@ -1,0 +1,39 @@
+<!-- pages/welfare/welfare.wxml -->
+<view class="welfare-card">
+    <view class="card">
+        <view class="card-img">
+            <image src="../../assets/books/1.png" class="img"></image>
+        </view>
+        <view class="card-content">
+            <view class="text">
+                <text class="title">读书小队</text>
+                <text class="sim">3人成队，共攒积分兑大奖</text>
+            </view>
+            <button class="btn" size="mini">立即组队</button>
+        </view>
+    </view>
+    <view class="card">
+        <view class="card-img">
+            <image src="../../assets/books/2.png" class="img"></image>
+        </view>
+        <view class="card-content">
+            <view class="text">
+                <text class="title">每日一答</text>
+                <text class="sim">挑战连续答对12道题</text>
+            </view>
+            <button class="btn" size="mini">玩一玩</button>
+        </view>
+    </view>
+    <view class="card">
+        <view class="card-img">
+            <image src="../../assets/books/3.png" class="img"></image>
+        </view>
+        <view class="card-content">
+            <view class="text">
+                <text class="title">组队抽终身无限卡</text>
+                <text class="sim">第85期 05.16 - 05.23</text>
+            </view>
+            <button class="btn" size="mini">立即组队</button>
+        </view>
+    </view>
+</view>
