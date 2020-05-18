@@ -7,11 +7,12 @@
 }
 .row {
   display: flex;
+  flex-direction: column;
 }
 .col {
   width: 200rpx;
   height: 200rpx;
-  background-color: #8DA6D9;
+  background-color: #8da6d9;
   margin: 10rpx;
   display: flex;
   align-items: center;

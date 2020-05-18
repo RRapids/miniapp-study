@@ -8,7 +8,8 @@
     "pages/goods/goods",
     "pages/myRequest/request",
     "pages/welfare/welfare",
-    "pages/books/books"
+    "pages/books/books",
+    "pages/compareNumber/compareNumber"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -37,8 +38,8 @@
         "selectedIconPath": "assets/info.png"
       },
       {
-        "pagePath": "pages/books/books",
-        "text": "书城",
+        "pagePath": "pages/jumpList/jumpList",
+        "text": "组合",
         "iconPath": "assets/menu.png",
         "selectedIconPath": "assets/menu.png"
       }

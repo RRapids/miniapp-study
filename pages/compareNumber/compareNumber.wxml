@@ -1,0 +1,13 @@
+<!-- pages/compareNumber/compareNumber.wxml -->
+<view>
+    <text>请输入第1个数字：</text>
+    <input type="number" bindchange="num1change" id="num1" />
+</view>
+<view>
+    <text>请输入第2个数字：</text>
+    <input type="number" bindchange="num2change" id="num2" />
+</view>
+<button bindtap="compare">比较</button>
+<view>
+    <text>比较结果：{{result}}</text>
+</view>
